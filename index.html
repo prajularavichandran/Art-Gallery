@@ -4,28 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art</title>
+    <title>Best Art Collection</title>
 
     <style>
+
+    
+
+
+        body{
+            background: linear-gradient(to bottom, #fffaf0, #fffbf7);
+        }
+       
         div {
             text-align: center;
         }
 
         img {
-
+            padding: 10px;
             height: 300px;
             width: 200px;
-            background-color: red;
+           border-radius: 50px;
+           border-color: black;
         }
+        img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+  box-shadow: 0 20px 20px rgba(208, 7, 7, 0.15);
+}
+
         header{
             text-align: center;
+        }
+
+        p{
+            margin-top: 2px;
+        }
+
+        h3,h2,h1{
+           margin-bottom: 5px; 
         }
     </style>
 </head>
 
 <body>
+
     <header>
         <h1>Colletion of Best Arts</h1>
+        <p>Timeless Strokes, Endless Stories.</p>
     </header>
     <!-- all the images in the page -->
     <div>
@@ -50,6 +75,34 @@
 
 
     </div>
+    <section>
+        <h2>About This Collection</h2>
+        <p>This curated collection features some of the most iconic and celebrated works in art history. Each painting represents a unique moment in time, a distinct style, and a profound message that has inspired generations of art lovers across the world.</p>
+    </section>
+
+    <section>
+        <h2 style="margin-bottom: 1px;">Featured Masterpieces:</h2>
+
+        <h3 style="margin-top: 15px;">1. Mona Lisa by Leonardo da Vinci</h3>
+        <p>The enigmatic smile that captivates viewers and symbolizes Renaissance art.
+        </p>
+
+        <h3>2. Starry Night by Vincent van Gogh</h3>
+        <p>A swirl of emotion and movement under a midnight sky, expressing the turmoil and beauty within.</p>
+
+        <h3>3. The Persistence of Memory by Salvador Dalí</h3>
+        <p>A surreal reflection on time, reality, and dreams, marked by melting clocks.</p>
+
+        <h3>4. Girl with a Pearl Earring by Johannes Vermeer</h3>
+        <p>Often called the ‘Mona Lisa of the North’, this work captures quiet mystery and elegance.</p>
+
+        <h3>5. The Scream by Edvard Munch</h3>
+        <p>A powerful expression of modern existential angst, with colors and strokes that echo emotional intensity.</p>
+
+        <h3>6. Guernica by Pablo Picasso</h3>
+        <p>A bold political statement against war, portraying human suffering with stark, cubist imagery.
+        </p>
+    </section>
 
 </body>
 
