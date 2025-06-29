@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to bottom, #fceba3, #fcd0d0, #f8beb2);
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+    border-radius: 50px;
+    border-color: black;
+}
+
+img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.10);
+    box-shadow: 0 20px 20px rgba(208, 7, 7, 0.15);
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    margin-top: 2px;
+}
+
+h3,
+h2,
+h1 {
+    margin-bottom: 5px;
+}
+
+h1{
+    color: #fb6000;
+}
+
+footer{
+    margin:50px;
+background-color: #f79c64;
+text-align: center;
+}
